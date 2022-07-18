@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-18T13:48:38.76261996+05:30"
+    created: "2022-07-18T14:02:16.121113621+05:30"
     description: A Helm chart for Kubernetes
     digest: b13e2ca8c0f2674ac50cc7071e86f0dd132af2c0f4959aed83a188684804aeaf
     name: helm-chart-test
@@ -11,4 +11,26 @@ entries:
     urls:
     - https://jj-devops-aws.github.io/helm-repo-new/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-18T13:48:38.761925341+05:30"
+  sealed-secrets:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: v0.18.1
+    created: "2022-07-18T14:02:16.123015177+05:30"
+    description: Helm chart for the sealed-secrets controller.
+    digest: 65529802f403bc4e98e38c3aef41d3e7993a9bece49e238dc731b2d63145ee95
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami-labs/sealed-secrets
+    name: sealed-secrets
+    type: application
+    urls:
+    - https://jj-devops-aws.github.io/helm-repo-new/sealed-secrets-2.4.0.tgz
+    version: 2.4.0
+generated: "2022-07-18T14:02:16.120295477+05:30"
